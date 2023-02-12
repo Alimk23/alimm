@@ -9,6 +9,12 @@ body {
 section {
 	padding-top: 8rem;
 }
+
+#wave {
+	padding-top: -5px;
+	padding-bottom: -5px;
+}
+
 /* Jumbotron */
 .jumbotron {
 	background-image: url(img/bg-home.jpg);
