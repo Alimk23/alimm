@@ -12,9 +12,11 @@
     <!-- My Custom CSS -->
     <link rel="stylesheet" href="style.css" />
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Alim Mughanil</title>
   </head>
-  <body>
+  <body class="">
     <!-- Awal Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light bg-gradient shadow-sm fixed-top">
       <div class="container">
@@ -52,11 +54,11 @@
       <section id="home">
         <div class="jumbotron">
           <div class="container pb-5">
-            <h1 class="display-4">Alim Mughanil Karim | Web Developer</h1>
-            <p class="lead">
+            <h1 class="display-4" data-aos="fade-right">Alim Mughanil Karim | Web Developer</h1>
+            <p class="lead" data-aos="fade-left">
               Laravel and React.js Spesialist
             </p>
-            <a class="btn btn-primary" href="#about" role="button">About me</a>
+            <a  class="btn btn-primary" href="#about" role="button">About me</a>
           </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="bg-light">
@@ -72,18 +74,19 @@
       <section id="about" class="bg-light">
         <div class="row mb-3 justify-content-center">
           <div class="col text-center">
-            <h2>About Me</h2>
+            <h2 data-aos="fade-up">About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-sm-2 text-center mb-2">
-            <img src="img/foto-profil.jpg" class="rounded-circle" width="180px" alt="Foto Profil" />
+            <img data-aos="zoom-in" src="img/foto-profil.jpg" class="rounded-circle" width="180px" alt="Foto Profil" />
           </div>
           <div class="col-sm-6 ps-5 pe-4">
-            <p>
-              I am someone who has experience as a Full-Stack developer for 1 year as a freelance while studying at UIN Walisongo Semarang. Currently, I have graduated as a bachelor's degree in 2022. Some of the projects I've worked on are related to web development for fundraising accompanied by the integration of several third-party services such as Midtrans Payment Gateway, Moota Payment Gateway, Twilio, Firebase Storage, and so on.
+            <p data-aos="fade-down-right">
+              <span>I am someone who has experience as a Full-Stack developer for 1 year as a freelance while studying at UIN Walisongo Semarang.</span> 
+              <span>Currently, I have graduated as a bachelor's degree in 2022. Some of the projects I've worked on are related to web development for fundraising accompanied by the integration of several third-party services such as Midtrans Payment Gateway, Moota Payment Gateway, Twilio, Firebase Storage, and so on. </span>
             </p>
-            <p>
+            <p data-aos="fade-up-left">
               I can also work according to the field of specialization in web development with technology experience that I have used, including PHP-based Laravel for Back-End Development and Javascript-based React for Front-End Development
             </p>
           </div>
@@ -103,24 +106,24 @@
         <div class="container-fluid">
           <div class="row justify-content-center bg-dark pt-5">
             <div class="col-md-6 offset-md-3 pt-5">
-              <h4>Education</h4>
+              <h4 data-aos="fade-up">Education</h4>
               <ul class="timeline">
                 <li>
-                  <h5 class="fw-bold">2005-2011</h5>
-                  <h5>MI NU 01 Tegalandong</h5>
+                  <h5 data-aos="fade-up" class="fw-bold">2005-2011</h5>
+                  <h5 data-aos="fade-up">MI NU 01 Tegalandong</h5>
                 </li>
                 <li>
-                  <h5 class="fw-bold">2011-2014</h5>
-                  <h5>MTs NU 01 Tegalandong</h5>
+                  <h5 data-aos="fade-up" class="fw-bold">2011-2014</h5>
+                  <h5 data-aos="fade-up">MTs NU 01 Tegalandong</h5>
                 </li>
                 <li>
-                  <h5 class="fw-bold">2014-2017</h5>
-                  <h5>SMKN 1 Adiwerna</h5>
+                  <h5 data-aos="fade-up" class="fw-bold">2014-2017</h5>
+                  <h5 data-aos="fade-up">SMKN 1 Adiwerna</h5>
                 </li>
                 <li>
-                  <h5 class="fw-bold">2019-2022</h5>
-                  <h5>UIN Walisongo Semarang</h5>
-                  <p>GPA Score (IPK): 3,90</p>
+                  <h5 data-aos="fade-up" class="fw-bold">2019-2022</h5>
+                  <h5 data-aos="fade-up">UIN Walisongo Semarang</h5>
+                  <p data-aos="fade-up">GPA Score (IPK): 3,90</p>
                 </li>
               </ul>
             </div>
@@ -145,7 +148,7 @@
 
         <div class="d-flex flex-sm-row flex-wrap gap-4 justify-content-center">
           
-          <div class="card" style="width: 18rem; height: 25rem;">
+          <div data-aos="zoom-out" class="card" style="width: 18rem; height: 25rem;">
             <img src="img/Projek6.png" class="card-img-top" alt="Projek1" style="width: 18rem; height: 14rem;">
             <div class="card-body text-center">
               <h6 class="card-title fw-bold p-1">Berbagi Mulia | <br> Laravel 9, React.js, Tailwind CSS</h6>
@@ -160,7 +163,7 @@
               </div>
             </div>
           </div>
-          <div class="card" style="width: 18rem; height: 25rem;">
+          <div data-aos="zoom-out" class="card" style="width: 18rem; height: 25rem;">
             <img src="img/Projek1.jpg" class="card-img-top" alt="Projek1" style="width: 18rem; height: 14rem;">
             <div class="card-body text-center">
               <h6 class="card-title fw-bold p-1">Simple Landing Page | <br> Bootstrap 4</h6>
@@ -176,7 +179,7 @@
             </div>
           </div>
 
-          <div class="card" style="width: 18rem; height: 25rem;">
+          <div data-aos="zoom-out" class="card" style="width: 18rem; height: 25rem;">
             <img src="img/Projek2.jpg" class="card-img-top" alt="Projek2" style="width: 18rem; height: 14rem;">
             <div class="card-body text-center">
               <h6 class="card-title fw-bold">Sistem Informasi Antrian | <br> PHP + JavaScript AJAX</h6>
@@ -193,7 +196,7 @@
           </div>
         </div>
         <div class="d-flex flex-sm-row flex-wrap gap-4 mt-4 justify-content-center">
-          <div class="card" style="width: 18rem">
+          <div data-aos="zoom-out" class="card" style="width: 18rem">
             <div class="card-body text-center">
               <h6 class="card-title fw-bold p-1">Stohealth | <br> Laravel, Blade Template, Bootstrap 5</h6>
               <p>Sistem pakar diagnosa penyakit lambung</p>
@@ -203,17 +206,17 @@
               </div>
               </div>
           </div>
-          <div class="card" style="width: 18rem">
+          <div data-aos="zoom-out" class="card" style="width: 18rem">
             <div class="card-body text-center">
               <h6 class="card-title fw-bold p-1">Heartnalyze | <br> Code Igniter 4, Bootstrap 5</h6>
-              <p>Sistem pakar diagnosa penyakit lambung</p>
+              <p>Sistem pakar diagnosa penyakit jantung</p>
               <div class="d-flex justify-content-between small">
                 <p class="">Created at 2021</p>
                 <a class="text-dark text-decoration-none" href="https://github.com/alimmughanil/heartnalyze"><i class="bi bi-github"></i> Source Code</a>
               </div>
               </div>
           </div>
-          <div class="card" style="width: 18rem">
+          <div data-aos="zoom-out" class="card" style="width: 18rem">
             <div class="card-body text-center">
               <h6 class="card-title fw-bold p-1">Imagieer | Construct 2 <br> (Game Development)</h6>
               <p>Game Tebak Nama Gambar Menggunakan Construct 2</p>
@@ -238,10 +241,10 @@
       <section id="contact" class="bg-dark text-light pt-0 mb-0">
         <div class="row justify-content-center pt-5">
           <div class="col-sm-6 pt-5 pb-3 text-center">
-            <h4>Kontak</h4>
-            <p>Ingin mengajak kerjasama? <br> Bisa isi form kontak berikut ini:</p>
+            <h4 data-aos="fade-up">Kontak</h4>
+            <p data-aos="fade-up">Ingin mengajak kerjasama? <br> Bisa isi form kontak berikut ini:</p>
           </div>
-          <div class="row justify-content-center">
+          <div data-aos="zoom-out" class="row justify-content-center">
             <div class="col-sm-6 p-4">
               <div class="alert alert-success alert-dismissible fade show d-none" role="alert">
                 Pesan anda sudah terkirim!
@@ -271,33 +274,33 @@
           </div>
           <div class="row justify-content-center">
             <div class="col-6 pt-5 text-center">
-              <h4 class="pb-3">Social Media</h4>
+              <h4 data-aos="fade-up" class="pb-3">Social Media</h4>
               <div class="row justify-content-center">
-                <div class="col-1 pe-4">
+                <div data-aos="fade-right" class="col-1 pe-4">
                   <a target="_blank" href="https://github.com/alimmughanil" class="text-decoration-none text-light"><h5><i class="bi bi-github"> </i></h5></a>
                 </div>
-                <div class="col-1 pe-4">
+                <div data-aos="fade-right" class="col-1 pe-4">
                   <a target="_blank" href="https://www.linkedin.com/in/alim-mughanil/" class="text-decoration-none text-light"><h5><i class="bi bi-linkedin"> </i></h5></a>
                 </div>
-                <div class="col-1 pe-4">
+                <div data-aos="fade-right" class="col-1 pe-4">
                   <a target="_blank" href="https://www.tiktok.com/@alim.mughanil" class="text-decoration-none text-light"><h5>
                     <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
                       <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
                     </svg></h5></a>
                 </div>
-                <div class="col-1 pe-4">
+                <div data-aos="fade-right" class="col-1 pe-4">
                   <a target="_blank" href="https://web.facebook.com/alim.mughanil" class="text-decoration-none text-light"><h5><i class="bi bi-facebook"> </i></h5></a>
                 </div>
-                <div class="col-1 pe-4">
+                <div data-aos="fade-left" class="col-1 pe-4">
                   <a target="_blank" href="https://www.instagram.com/alim.mughanil" class="text-decoration-none text-light"><h5><i class="bi bi-instagram"></i></h5></a>
                 </div>
-                <div class="col-1 pe-4">                
+                <div data-aos="fade-left" class="col-1 pe-4">                
                   <a target="_blank" href="https://wa.me/628983936489" class="text-decoration-none text-light"><h5><i class="bi bi-whatsapp"></i></h5></a>
                 </div>
-                <div class="col-1 pe-4">                
+                <div data-aos="fade-left" class="col-1 pe-4">                
                   <a target="_blank" href="http://t.me/alim_mughanil" class="text-decoration-none text-light"><h5><i class="bi bi-telegram"> </i></h5></a>
                 </div>
-                <div class="col-1 pe-4">                
+                <div data-aos="fade-left" class="col-1 pe-4">                
                   <a target="_blank" href="https://www.youtube.com/channel/UCRU0nYsXoY5_1JHLTVcb0eA" class="text-decoration-none text-light"><h5><i class="bi bi-youtube"></i></h5></a>
                 </div>
               </div>
@@ -317,15 +320,18 @@
 
 
     <!-- Footer -->
-    <footer class="bg-light text-dark text-center pb-2">
+    <footer data-aos="fade-up" class="bg-light text-dark text-center pb-2">
       <p>@<span id="currentYear"></span>. Design by <b>Alim Mughanil Karim</b></p>
     </footer>
 
     <!--jQuery Bootstrap 5-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- JavaScript untuk form kontak berdasarkan tutorial dari https://github.com/jamiewilson/form-to-google-sheets-->
     <script>
+      AOS.init();
       const scriptURL = 'https://script.google.com/macros/s/AKfycbxk6cybVaqyHuxCTyDMwBDAMWsbqFb9lT3Txwim50NCE1qupdi5_CV5Bh2AsqoZOtiRCw/exec'
       const form = document.forms['web-contact-form']
       const btnKirim = document.querySelector('.btn-kirim');
