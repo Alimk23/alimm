@@ -63,14 +63,29 @@ ul.timeline:before {
 	background: #f8f9fa;
 	display: inline-block;
 	position: absolute;
-	left: 29px;
 	width: 4px;
 	height: 100%;
 	z-index: 400;
 }
+ul.timeline-left:before {
+	left: 29px;
+}
+ul.timeline-right:before {
+	right: 29px;
+}
+ul.timeline-right {
+	text-align: end;
+}
+
 ul.timeline > li {
 	margin: 20px 1px;
+}
+ul.timeline-left > li {
 	padding-left: 20px;
+}
+ul.timeline-right > li {
+	margin-left: -45px;
+	width: 100%;
 }
 ul.timeline > li:before {
 	content: '';
@@ -79,8 +94,13 @@ ul.timeline > li:before {
 	position: absolute;
 	border-radius: 50%;
 	border: 5px solid #2257e8;
-	left: 20px;
 	width: 20px;
 	height: 20px;
 	z-index: 400;
+}
+ul.timeline-left > li:before {
+	left: 20px;
+}
+ul.timeline-right > li:before {
+	right: 20px;
 }
